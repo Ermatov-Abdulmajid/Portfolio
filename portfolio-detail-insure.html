@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Insure details</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="site-header__logo logo" href="index.html">
+        <img class="logo__img" src="img/logo-dark.svg" alt="Portfolio logo" width="61" height="32">
+      </a>
+
+      <!-- SITENAV -->
+      <nav class="site-header__sitenav sitenav sitenav--site-header">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="index.html">Home</a></li>
+          <li class="sitenav__item sitenav__item--active"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="contact.html">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <button class="site-header__toggler" type="button" aria-label="Menu"></button>
+    </div>
+  </header>
+
+
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
+
+    <!-- PROJECT-HERO -->
+    <div class="project-hero">
+      <div class="container">
+        <picture class="project-hero__picture">
+          <source srcset="img/hero-img-insure-desktop.jpg 1x, img/hero-img-insure-desktop@2x.jpg 2x" media="(min-width:900px)">
+          <source srcset="img/hero-img-insure-tablet.jpg 1x, img/hero-img-insure-tablet@2x.jpg 2x" media="(min-width:550px)">
+          <img class="project-hero__img" src="img/hero-img-insure.jpg" alt="" width="311" height="140" srcset="img/hero-img-insure.jpg 1x, img/hero-img-insure@2x.jpg 2x" aria-hidden="true">
+        </picture>
+      </div>
+    </div>
+
+
+    <div class="project-meta-details">
+      <div class="project-meta-details__container container">
+        <!-- PROJECT-META -->
+        <div class="project-meta-details__meta project-meta">
+          <div class="project-meta__inner">
+            <h1 class="project-meta__heading">Insure</h1>
+            <p class="project-meta__description">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
+            <div class="project-meta__tags">
+              <div class="project-meta__tag-item">Interaction Design / Front End Development</div>
+              <div class="project-meta__tag-item">HTML / CSS / JS</div>
+            </div>
+            <a class="project-meta__button button" href="#">Visit website</a>
+          </div>
+        </div>
+
+        <!-- PROJECT-DETAILS -->
+        <div class="project-meta-details__details project-details">
+          <section class="project-details__section">
+            <h2 class="project-details__heading">Project Background</h2>
+            <div class="project-details__text-wrapper">
+              <p class="project-details__text">This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.</p>
+            </div>
+          </section>
+
+          <section class="project-details__section">
+            <h2 class="project-details__heading project-details__heading--static-previews">Static Previews</h2>
+            <ul class="project-details__static-previews static-previews" role="list">
+              <li class="static-previews__item" role="listitem">
+                <picture class="static-previews__picture">
+                  <source srcset="img/static-preview-1-insure-tablet.jpg 1x, img/static-preview-1-insure-tablet@2x.jpg 2x" media="(min-width:600px)">
+                  <img class="static-previews__img" src="img/static-preview-1-insure.jpg" alt="Preview image of Insure project" width="313" height="197" srcset="img/static-preview-1-insure.jpg 1x, img/static-preview-1-insure@2x.jpg 2x">
+                </picture>
+              </li>
+
+              <li class="static-previews__item" role="listitem">
+                <picture class="static-previews__picture">
+                  <source srcset="img/static-preview-2-insure-tablet.jpg 1x, img/static-preview-2-insure-tablet@2x.jpg 2x" media="(min-width:600px)">
+                  <img class="static-previews__img" src="img/static-preview-2-insure.jpg" alt="Preview image of Insure project" width="313" height="197" srcset="img/static-preview-2-insure.jpg 1x, img/static-preview-2-insure@2x.jpg 2x">
+                </picture>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PAGE-CONTROLS -->
+    <section class="page-controls">
+      <div class="container">
+        <h2 class="visually-hidden">Other projects</h2>
+        <div class="page-controls__inner">
+          <a class="page-controls__link page-controls__link--prev" href="portfolio-detail-bookmark.html">
+            <svg class="page-controls__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18" width="10" height="18" fill="none"><path stroke="currentColor" d="M9 1 1 9l8 8"/></svg>
+            <span class="page-controls__text">Previous project</span>
+            <span class="page-controls__title">Bookmark</span>
+          </a>
+          <a class="page-controls__link page-controls__link--next" href="portfolio-detail-fylo.html">
+            <svg class="page-controls__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 18" width="10" height="18" fill="none"><path stroke="currentColor" d="m1 1 8 8-8 8"/></svg>
+            <span class="page-controls__text">Next project</span>
+            <span class="page-controls__title">Fylo</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT-CTA -->
+    <section class="contact-cta contact-cta--portfolio-index">
+      <div class="contact-cta__container container">
+        <h2 class="contact-cta__heading">Interested in doing a project together?</h2>
+        <a class="button" href="contact.html">Contact me</a>
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+  <!-- SITE-FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__container container">
+      <a class="site-footer__logo logo" href="index.html">
+        <img class="logo__img" src="img/logo-light.svg" alt="Portfolio logo" width="61" height="32">
+      </a>
+
+      <!-- SITENAV -->
+      <div class="site-footer__sitenav sitenav">
+        <ul class="sitenav__list sitenav__list--site-footer">
+          <li class="sitenav__item"><a class="sitenav__link" href="index.html">Home</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="contact.html">Contact me</a></li>
+        </ul>
+      </div>
+
+      <!-- SOCIALS -->
+      <div class="socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank" aria-label="GitHub profile">
+              <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path fill="currentColor" d="M12.5 0C5.594 0 0 5.51 0 12.305c0 5.437 3.581 10.048 8.547 11.674.625.116.854-.265.854-.592 0-.292-.01-1.066-.016-2.092-3.477.742-4.21-1.65-4.21-1.65-.569-1.42-1.39-1.8-1.39-1.8-1.133-.764.087-.748.087-.748 1.255.086 1.914 1.268 1.914 1.268 1.115 1.881 2.927 1.338 3.641 1.024.113-.797.434-1.338.792-1.646-2.776-.308-5.694-1.366-5.694-6.08 0-1.343.484-2.44 1.286-3.302-.14-.31-.562-1.562.11-3.256 0 0 1.047-.33 3.437 1.261 1-.273 2.063-.409 3.125-.415 1.063.006 2.125.142 3.125.415 2.375-1.591 3.422-1.261 3.422-1.261.672 1.694.25 2.945.125 3.256.797.861 1.281 1.959 1.281 3.302 0 4.727-2.921 5.767-5.703 6.07.438.369.844 1.123.844 2.276 0 1.647-.015 2.97-.015 3.37 0 .322.218.707.859.584 5-1.615 8.579-6.23 8.579-11.659C25 5.51 19.403 0 12.5 0Z"/></svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank" aria-label="Twitter profile">
+              <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none"><path fill="currentColor" d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557Z"/></svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank" aria-label="LinkedIn profile">
+              <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M2.4 0h19.2C22.92 0 24 1.08 24 2.4v19.2c0 1.32-1.08 2.4-2.4 2.4H2.4C1.08 24 0 22.92 0 21.6V2.4C0 1.08 1.08 0 2.4 0Zm1.2 20.4h3.6V9.6H3.6v10.8ZM5.4 7.56c-1.2 0-2.16-.96-2.16-2.16 0-1.2.96-2.16 2.16-2.16 1.2 0 2.16.96 2.16 2.16 0 1.2-.96 2.16-2.16 2.16ZM16.8 20.4h3.6v-6.84c0-2.28-1.92-4.2-4.2-4.2-1.08 0-2.4.72-3 1.68V9.6H9.6v10.8h3.6v-6.36c0-.96.84-1.8 1.8-1.8.96 0 1.8.84 1.8 1.8v6.36Z" clip-rule="evenodd"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
