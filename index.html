@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/site-logo.svg" />
+    <title>Portfolio | Abdullokh Khamzaev | Frontend Developer</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="assets/css/plyr.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <a class="logo-link" href="index.html">
+          <img
+            class="header-logo logo"
+            src="assets/img/logo.svg"
+            width="128"
+            height="47"
+            alt="Abdullokh Khamzaev logo" />
+        </a>
+
+        <nav class="header-nav site-nav">
+          <ul class="header-nav__list site-nav__list">
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Skills</a>
+            </li>
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Experience</a>
+            </li>
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Courses</a>
+            </li>
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Projects</a>
+            </li>
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Blog</a>
+            </li>
+            <li class="header-nav__item site-nav__item">
+              <a class="header-nav__link site-nav__link" href="#">Lesson</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__setting">
+          <img
+            class="header__setting-logo"
+            src="assets/img/setting.svg"
+            width="43"
+            height="43"
+            alt="setting language change" />
+        </div>
+
+        <button class="header__menu-toggler" type="button" id="burger">
+          <img
+            class="burger-icon"
+            src="assets/img/burger.svg"
+            width="37"
+            height="27"
+            alt="toggle menu" />
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-6">
+              <div class="hero-content">
+                <p class="hero__greet">Hi I am,</p>
+
+                <h1 class="hero__title">Abdumajid Ermatov</h1>
+
+                <p class="hero__profession">Web/Frontend Developer</p>
+
+                <p class="hero__description">
+                  I’m a junior front-end developer looking for a new role in an
+                  exciting company. I focus on writing accessible HTML, using
+                  modern CSS practices and writing clean JavaScript. When
+                  writing JavaScript code, I can adapt to whatever tools are
+                  required. I’m based in Kokand, Uzbekista. I’d love you to
+                  check out my portfolio.
+                </p>
+
+                <div class="hero__btn-group">
+                  <!-- Todo upload resume -->
+                  <a class="hero__btn hero__btn-active" href="#">
+                    Download resume
+                  </a>
+
+                  <button class="hero__btn">Learn more</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-6 d-flex">
+              <img
+                class="hero-img"
+                src="assets/img/hero.svg"
+                alt="Abdullokh Khamzaev code" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills d-flex flex-column align-items-center" id="skills">
+        <div class="skills-container container">
+          <h2 class="skills__title">My skills</h2>
+          <p class="skills__info">
+            The skills, tools and technologies I am really good at:
+          </p>
+
+          <ul class="skills-list d-flex justify-content-between p-0">
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">React</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/react.svg"
+                width="85"
+                height="85"
+                alt="React"
+                aria-label="React" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">Javascript</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/javascript.svg"
+                width="85"
+                height="85"
+                alt="JavaScript"
+                aria-label="JavaScript" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">Bootstrap</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/bootstrap.svg"
+                width="85"
+                height="85"
+                alt="Bootstrap"
+                aria-label="Bootstrap" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">TypeScript</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/typeScript.svg"
+                width="85"
+                height="85"
+                alt="TypeScript"
+                aria-label="TypeScript" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">CSS</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/css.svg"
+                width="85"
+                height="85"
+                alt="CSS"
+                aria-label="CSS" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">HTML</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/html.svg"
+                width="85"
+                height="85"
+                alt="HTML"
+                aria-label="HTML" />
+            </li>
+            <li class="skill d-flex flex-column align-items-center">
+              <h3 class="skill__title order-1">Git</h3>
+              <img
+                class="skill__icon order-0"
+                src="assets/img/skills/git.svg"
+                width="85"
+                height="85"
+                alt="Git"
+                aria-label="Git" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container d-flex flex-column justify-content-center">
+          <h2 class="projects__title mx-auto mx-lg-0 ms-lg-auto">Projects</h2>
+          <p class="projects__sub-title mx-auto mx-lg-0 ms-lg-auto">
+            All Projects
+          </p>
+
+          <div
+            class="projects-wrapper row row-cols-1 row row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/projects/ai-writer.jpg"
+                  alt="Project name"
+                  aria-label="About project" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">AI-Writer</h3>
+                  <p class="project-card__info">
+                    This site about AI-Writer. In this site have landing page
+                    and lot of useful features. I worked with openAI and you can
+                    generate text <br />
+                    <br />
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : React, TypeScript
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="https://ai-writerr.vercel.app"
+                      >Live Preview
+                    </a>
+                    <a
+                      class="project-source-link project-link"
+                      href="https://github.com/Ermatov-Abdulmajid/ai-writer"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/projects/game-hub.jpg"
+                  alt="game-hub name"
+                  aria-label="game-hub project" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">Game-hub</h3>
+                  <p class="project-card__info">
+                    GameHub is a video game discovery web app that helps you
+                    find new and interesting games to play. With GameHub, you
+                    can search for games by platform, genre, and more.
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : React, TypeScript
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="https://game-hub-by-majid.netlify.app"
+                      >Live Preview</a
+                    >
+                    <a
+                      class="project-source-link project-link"
+                      href="https://github.com/Ermatov-Abdulmajid/game-hub"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/media-crew.png"
+                  alt="Project name"
+                  aria-label="About project" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">Project Tile goes here</h3>
+                  <p class="project-card__info">
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="#"
+                      >Live Preview</a
+                    >
+                    <a
+                      class="project-source-link project-link"
+                      href="#"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/projects/my-team.jpg"
+                  alt="my-team"
+                  aria-label="my-team" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">My team</h3>
+                  <p class="project-card__info">
+                    This challenge is to build out this multi-page website and
+                    get it looking as close to the design as possible. <br />
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : HTML , JavaScript, CSS
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="https://my-team-mjd.netlify.app"
+                      >Live Preview</a
+                    >
+                    <a
+                      class="project-source-link project-link"
+                      href="https://github.com/Ermatov-Abdulmajid/my-team"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/projects/status-premium.jpg"
+                  alt="Status Premium"
+                  aria-label="Status Premium" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">Status Premium</h3>
+                  <p class="project-card__info">
+                    STATUS Premium. Premium format. I mostly worked with styles
+                    on this site
+                    <br /><br />
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="#"
+                      >Live Preview</a
+                    >
+                    <a
+                      class="project-source-link project-link"
+                      href="#"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="project-card">
+                <img
+                  class="project-card__img"
+                  src="assets/img/media-crew.png"
+                  alt="Project name"
+                  aria-label="About project" />
+
+                <div class="project-card__body">
+                  <h3 class="project-card__title">Project Tile goes here</h3>
+                  <p class="project-card__info">
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="project-card__tech">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+
+                  <div
+                    class="project-card__bottom d-flex justify-content-between">
+                    <a
+                      class="project-preview-link project-link"
+                      target="_blank"
+                      href="#"
+                      >Live Preview</a
+                    >
+                    <a
+                      class="project-source-link project-link"
+                      href="#"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lessons" id="lessons">
+        <div class="container">
+          <h2 class="lessons__title">Lessons</h2>
+
+          <div
+            class="lesson-card-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+            <div class="col">
+              <div class="lesson-card d-flex flex-column">
+                <div
+                  class="plyr__video-embed lesson__plyr js-player"
+                  data-plyr-provider="youtube"
+                  data-plyr-embed-id="bqWU8BiZcpY"
+                  data-poster="/assets/img/media-crew.png"></div>
+
+                <div class="lesson-card__body">
+                  <div class="lesson-num">Lesson 1</div>
+                  <hr class="lesson-card__divider" />
+                  <h3 class="lesson__name">Theory of if else</h3>
+                </div>
+
+                <div
+                  class="lesson-card__bottom d-flex justify-content-between mt-auto">
+                  <span>Abdullokh Dev</span>
+                  <time datetime="2022-02-17">2022/02/17</time>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="lesson-card d-flex flex-column">
+                <div
+                  class="plyr__video-embed lesson__plyr js-player"
+                  data-plyr-provider="youtube"
+                  data-plyr-embed-id="bqWU8BiZcpY"
+                  data-poster="/assets/img/media-crew.png"></div>
+
+                <div class="lesson-card__body">
+                  <div class="lesson-num">Lesson 1</div>
+                  <hr class="lesson-card__divider" />
+                  <h3 class="lesson__name">Theory of if else</h3>
+                </div>
+
+                <div
+                  class="lesson-card__bottom d-flex justify-content-between mt-auto">
+                  <span>Abdullokh Dev</span>
+                  <time datetime="2022-02-17">2022/02/17</time>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="lesson-card d-flex flex-column">
+                <div
+                  class="plyr__video-embed lesson__plyr js-player"
+                  data-plyr-provider="youtube"
+                  data-plyr-embed-id="bqWU8BiZcpY"
+                  data-poster="/assets/img/media-crew.png"></div>
+
+                <div class="lesson-card__body">
+                  <div class="lesson-num">Lesson 1</div>
+                  <hr class="lesson-card__divider" />
+                  <h3 class="lesson__name">Theory of if else</h3>
+                </div>
+
+                <div
+                  class="lesson-card__bottom d-flex justify-content-between mt-auto">
+                  <span>Abdullokh Dev</span>
+                  <time datetime="2022-02-17">2022/02/17</time>
+                </div>
+              </div>
+            </div>
+            <div class="col d-lg-none d-xxl-block">
+              <div class="lesson-card d-flex flex-column">
+                <div
+                  class="plyr__video-embed lesson__plyr js-player"
+                  data-plyr-provider="youtube"
+                  data-plyr-embed-id="bqWU8BiZcpY"
+                  data-poster="/assets/img/media-crew.png"></div>
+
+                <div class="lesson-card__body">
+                  <div class="lesson-num">Lesson 1</div>
+                  <hr class="lesson-card__divider" />
+                  <h3 class="lesson__name">Theory of if else</h3>
+                </div>
+
+                <div
+                  class="lesson-card__bottom d-flex justify-content-between mt-auto">
+                  <span>Abdullokh Dev</span>
+                  <time datetime="2022-02-17">2022/02/17</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center justify-content-md-end">
+            <!-- todo -->
+            <a class="more-lesson-link" href="#" target="_blank">All lessons</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="faq__title ms-2 ms-sm-5">Frequently asked questions</h2>
+
+          <div class="row">
+            <div class="col-12 col-sm-11 col-lg-6 col-xl-7 mx-auto order-lg-1">
+              <div class="accordion">
+                <button class="accordion__item">
+                  <span class="accordion__item-num">01</span> What kind of
+                  projects you won't do?
+                </button>
+
+                <div class="accordion__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <button class="accordion__item">
+                  <span class="accordion__item-num">02</span> Where can I watch?
+                </button>
+                <div class="accordion__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <button class="accordion__item">
+                  <span class="accordion__item-num">03</span> Where can I watch?
+                </button>
+                <div class="accordion__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <button class="accordion__item">
+                  <span class="accordion__item-num">04</span> Where can I watch?
+                </button>
+                <div class="accordion__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-11 col-lg-6 col-xl-5 d-flex justify-content-center mx-auto order-lg-0">
+              <img
+                class="faq__img"
+                src="/assets/img/person.svg"
+                alt="#"
+                width="713"
+                height="694" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <!-- Site overlay -->
+    <div class="site-overlay" id="site-overlay"></div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <button class="mobile-menu__close-btn" id="mobile-menu-close-btn">
+        <img
+          class="close-btn-icon"
+          src="assets/img/close.svg"
+          width="11"
+          height="11"
+          alt="x" />
+      </button>
+
+      <div class="mobile-menu__body">
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Skills</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Experience</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Courses</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Projects</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Blog</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="#">Lesson</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/plyr.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
