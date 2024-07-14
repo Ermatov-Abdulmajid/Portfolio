@@ -410,13 +410,6 @@ img {
   margin: 0;
 }
 
-.projects__sub-title {
-  color: #6127d6;
-  font-size: 35px;
-  font-weight: 600;
-  margin: 0;
-}
-
 .projects-wrapper {
   margin-top: 115px;
 }
@@ -793,10 +786,6 @@ img {
     font-size: 56px;
   }
 
-  .projects__sub-title {
-    font-size: 26px;
-  }
-
   .projects-wrapper {
     margin-top: 50px;
     --bs-gutter-x: 3.1rem;
@@ -1146,10 +1135,6 @@ img {
   .projects__title {
     width: auto;
     font-size: 27px;
-  }
-
-  .projects__sub-title {
-    font-size: 14px;
   }
 
   .project-card__title {
