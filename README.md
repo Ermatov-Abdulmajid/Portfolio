@@ -1,2 +1,3 @@
 # my-portfolio
- Portfolio | Abdullokh  Khamzaev | Frontend Developer 
+
+Portfolio | Abdumajid Ermatov | Frontend Developer
