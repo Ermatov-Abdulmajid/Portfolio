@@ -5,6 +5,16 @@
   --orange: #f7b758;
 }
 
+.ctn {
+  --bs-gutter-x: 2.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* FONTS */
 @font-face {
   font-family: "Raleway";
@@ -395,6 +405,25 @@ img {
   margin: 0;
 }
 
+/* ROADMAP */
+.roadmap {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.roadmap__title {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.roadmap__img {
+  display: block;
+  width: 100%;
+}
+
 /* PROJECTS */
 .projects {
   padding-top: 75px;
@@ -780,6 +809,11 @@ img {
     line-height: 28px;
   }
 
+  /* ROADMAP */
+  .roadmap__title {
+    font-size: 56px;
+  }
+
   /* PROJECTS */
   .projects__title {
     width: 330px;
@@ -1125,6 +1159,11 @@ img {
   .skill__title {
     font-size: 11px;
     line-height: 17px;
+  }
+
+  /* ROADMAP */
+  .roadmap__title {
+    font-size: 27px;
   }
 
   /* PROJECTS */
