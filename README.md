@@ -1,3 +1,3 @@
-# my-portfolio
+# My-portfolio
 
 Portfolio | Abdumajid Ermatov | Frontend Developer
